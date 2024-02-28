@@ -1,0 +1,14 @@
+/Users/ulkiorra/RiderProjects/ClientServerChatApplication/Server/bin/Release/net8.0/Server
+/Users/ulkiorra/RiderProjects/ClientServerChatApplication/Server/bin/Release/net8.0/Server.deps.json
+/Users/ulkiorra/RiderProjects/ClientServerChatApplication/Server/bin/Release/net8.0/Server.runtimeconfig.json
+/Users/ulkiorra/RiderProjects/ClientServerChatApplication/Server/bin/Release/net8.0/Server.dll
+/Users/ulkiorra/RiderProjects/ClientServerChatApplication/Server/bin/Release/net8.0/Server.pdb
+/Users/ulkiorra/RiderProjects/ClientServerChatApplication/Server/obj/Release/net8.0/Server.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ulkiorra/RiderProjects/ClientServerChatApplication/Server/obj/Release/net8.0/Server.AssemblyInfoInputs.cache
+/Users/ulkiorra/RiderProjects/ClientServerChatApplication/Server/obj/Release/net8.0/Server.AssemblyInfo.cs
+/Users/ulkiorra/RiderProjects/ClientServerChatApplication/Server/obj/Release/net8.0/Server.csproj.CoreCompileInputs.cache
+/Users/ulkiorra/RiderProjects/ClientServerChatApplication/Server/obj/Release/net8.0/Server.dll
+/Users/ulkiorra/RiderProjects/ClientServerChatApplication/Server/obj/Release/net8.0/refint/Server.dll
+/Users/ulkiorra/RiderProjects/ClientServerChatApplication/Server/obj/Release/net8.0/Server.pdb
+/Users/ulkiorra/RiderProjects/ClientServerChatApplication/Server/obj/Release/net8.0/Server.genruntimeconfig.cache
+/Users/ulkiorra/RiderProjects/ClientServerChatApplication/Server/obj/Release/net8.0/ref/Server.dll
