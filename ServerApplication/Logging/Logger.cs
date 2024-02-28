@@ -5,7 +5,7 @@ namespace ServerApplication.Logging;
 
 internal sealed class Logger<T> : ILogger<T>
 {
-    // Set your direction
+    // Set your directory
     private const string DirectoryPath = "/Users/ulkiorra/RiderProjects/ClientServerChatApplication/ServerApplication/Logs";
     private static string _fileFullPath = null!;
     
