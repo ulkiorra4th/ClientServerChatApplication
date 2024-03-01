@@ -6,17 +6,13 @@ namespace ServerApplication.Logging;
 internal sealed class Logger<T> : ILogger<T>
 {
     // Set your directory
-    private const string DirectoryPath = "/Users/ulkiorra/RiderProjects/ClientServerChatApplication/ServerApplication/Logs";
+    private const string DirectoryPath = "C:/Users/Рамин/RiderProjects/ClientServerChatApplication/ServerApplication/Logs";
     private static string _fileFullPath = null!;
     
     static Logger()
     {
+        if (!Directory.Exists(DirectoryPath)) Directory.CreateDirectory(DirectoryPath);
         _fileFullPath = $"{DirectoryPath}/{DateTime.Today.ToShortDateString()}_LOG.txt";
-    }
-
-    public Logger()
-    {
-        if (!Directory.Exists("Logs/")) Directory.CreateDirectory("Logs/");
     }
 
     public void Log(string message, bool showInConsole = true)

@@ -8,24 +8,26 @@
     "net8.0": []
   },
   "packageFolders": {
-    "/Users/ulkiorra/.nuget/packages/": {}
+    "C:\\Users\\Рамин\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/ulkiorra/RiderProjects/ClientServerChatApplication/ClientApplication/ClientApplication.csproj",
+      "projectUniqueName": "C:\\Users\\Рамин\\RiderProjects\\ClientServerChatApplication\\ClientApplication\\ClientApplication.csproj",
       "projectName": "ClientApplication",
-      "projectPath": "/Users/ulkiorra/RiderProjects/ClientServerChatApplication/ClientApplication/ClientApplication.csproj",
-      "packagesPath": "/Users/ulkiorra/.nuget/packages/",
-      "outputPath": "/Users/ulkiorra/RiderProjects/ClientServerChatApplication/ClientApplication/obj/",
+      "projectPath": "C:\\Users\\Рамин\\RiderProjects\\ClientServerChatApplication\\ClientApplication\\ClientApplication.csproj",
+      "packagesPath": "C:\\Users\\Рамин\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Рамин\\RiderProjects\\ClientServerChatApplication\\ClientApplication\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/ulkiorra/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Рамин\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -38,6 +40,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -59,7 +66,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

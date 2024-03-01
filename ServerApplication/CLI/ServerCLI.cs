@@ -1,3 +1,4 @@
+using System.Net;
 using System.Text;
 
 namespace ServerApplication.CLI;
@@ -24,9 +25,12 @@ internal static class ServerCLI
         Console.ResetColor();
     }
 
-    public static bool RequestPort(out int port)
+    public static bool RequestSocket(out string? ipAddress, out int port)
     {
-        Console.Write("\nEnter port: ");
+        Console.Write("\nEnter IP: ");
+        ipAddress = Console.ReadLine();
+        
+        Console.Write("Enter port: ");
         
         try
         {
@@ -37,7 +41,7 @@ internal static class ServerCLI
             port = 0;
             return false;
         }
-
+        
         return true;
     }
 

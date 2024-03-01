@@ -4,10 +4,10 @@ using ServerApplication.Net;
 
 ServerCLI.DisplayWelcomeMessage();
 
-string ipAddress = System.Net.Dns.GetHostEntry(System.Net.Dns.GetHostName()).AddressList[3].MapToIPv4().ToString();
+string? ipAddress;
 int port;
 
-while (!ServerCLI.RequestPort(out port)) { }
+while (!ServerCLI.RequestSocket(out ipAddress, out port)) { }
 
 IServer serverApplication = new Server(ipAddress, port);
 serverApplication.Run();
