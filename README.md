@@ -10,5 +10,7 @@
 3. Run the ***ClientApplication***, enter your **user name** and **server's hostname** and **port** *(you can see them on server's console)*
 4. That's it! After that you can run one more ***ClientApplication*** to check that everything works;
 
+<img width="638" alt="image" src="https://github.com/ulkiorra4th/ClientServerChatApplication/assets/93437745/c415cd43-84c6-4734-ae64-43c45ada154c">
+
 *Good luck!* <br>
 *https://github.com/ulkiorra4th*
