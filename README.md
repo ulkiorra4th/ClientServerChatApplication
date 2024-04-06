@@ -1,4 +1,4 @@
-<h1>Welcome to my Client-Server console chat application</h1>
+<h1>Welcome to Client-Server console chat application</h1>
 
 <h2>How to use</h2> 
 
